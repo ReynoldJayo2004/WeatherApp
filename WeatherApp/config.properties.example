@@ -1,0 +1,2 @@
+# Copy this file to config.properties and paste your OpenWeatherMap key
+apiKey=YOUR_API_KEY_HERE
