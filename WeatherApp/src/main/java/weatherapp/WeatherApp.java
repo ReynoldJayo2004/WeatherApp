@@ -224,7 +224,7 @@ public class WeatherApp extends JFrame {
 
     /** Finds the API key from env var, config.properties, or by asking the user. */
     private static String resolveApiKey() {
-        String key = System.getenv("OPENWEATHER_API_KEY");
+        String key = "1b816de9588657ad4c8bcbe8c0a4508f";
         if (key != null && !key.isBlank()) return key.trim();
 
         Properties props = new Properties();
